@@ -18,6 +18,7 @@ button[b].addEventListener('click' , function () {
         result.innerText = "不正解・・・";
     }
    }
+    return;
   );
 }
 
