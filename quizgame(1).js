@@ -6,8 +6,8 @@ document.getElementById('problem').innerText = question;
 const button = document.getElementsByClassName('button');
 const result = document.getElementById('result-area');
 
-for(number = 0; number < button.length; number++) {
-    button[number].innerText = answers[number];
+for(a = 0; a < button.length; a++) {
+    button[a].innerText = answers[a];
 }
 
 
